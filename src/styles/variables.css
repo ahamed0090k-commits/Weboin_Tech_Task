@@ -1,0 +1,40 @@
+:root {
+  /* Core Palette */
+  --bg-primary: #0B0B0F;
+  --bg-secondary: #14141B;
+  --bg-card: #191920;
+  --bg-card-hover: #20202A;
+  --accent: #B8FF3B;
+  --accent-hover: #C8FF66;
+  --accent-dim: rgba(184, 255, 59, 0.12);
+  --accent-border: rgba(184, 255, 59, 0.35);
+  --text-primary: #FFFFFF;
+  --text-secondary: #A1A1AA;
+  --text-muted: #71717A;
+
+  /* Borders & Surfaces */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.14);
+  --glass-bg: rgba(11, 11, 15, 0.78);
+  --error-color: #FF5C5C;
+  --error-bg: rgba(255, 92, 92, 0.1);
+
+  /* Typography */
+  --font-display: 'Sora', sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Layout & Spacing */
+  --container-max: 1240px;
+  --section-py: clamp(4.5rem, 8vw, 7.5rem);
+  --nav-height: 78px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: 0.22s var(--ease-out);
+  --transition-smooth: 0.4s var(--ease-out);
+}
